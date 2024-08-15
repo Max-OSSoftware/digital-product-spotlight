@@ -11,15 +11,15 @@ import pricingCards from './libs/PricingCards'
 export default function Home() {
   return (
     <main className='flex min-h-screen h-fit flex-col items-center justify-center relative'>
-      <Navbar />
+      
       
       <header id="home" className="flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden">
         <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8'>
           <div className='flex flex-col gap-2'>
-            <h1 className='text-4xl font-black md:text-8xl'>Welcome to Boca</h1>
-            <h2 className='text-md md:text-2xl'>Your Ultimate Text-to-Video AI Technology Solution</h2>
+            <h1 className='text-4xl font-black md:text-6xl'>Welcome to Maxwell</h1>
+            <h2 className='text-md md:text-2xl'>The Ultimate Technology Solution</h2>
           </div>
-          <p className='max-w-md text-sm md:text-base text-zinc-500'>we specialize in cutting-edge Text-to-Video AI technology that transforms written content into engaging video presentations. Our AI-driven platform empowers businesses and creators to effortlessly convert text into dynamic visual content, saving time and enhancing communication.</p>
+          <p className='max-w-md text-sm md:text-base text-zinc-500'>we specialize in a ultimate technology that transforms written content into engaging web presentations. Our AI-driven platforms empowers businesses and creators to effortlessly convert text into dynamic visual content, saving time and enhancing communication.</p>
           <div className='w-full flex items-center justify-center md:justify-start gap-4'>
             <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Join Watchlist</button>
             <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors'>Contact</button>
@@ -73,7 +73,7 @@ interface IInfoCardProps {
 
 function InfoCard({title,Icon,children}:IInfoCardProps) {
   return (
-    <div className='w-full h-80 rounded flex flex-col justify-around items-center p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
+    <div className='w-full h-80 flex flex-col justify-around items-center p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
       <div className="p-4 bg-fuchsia-700 rounded-full">
         <Icon />
       </div>
@@ -94,7 +94,7 @@ interface IPricingCardProps {
 }
 function PricingCard({title,price,benefits,oneliner}:IPricingCardProps) {
   return (
-    <div className='h-fit w-full rounded flex flex-col p-8 gap-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
+    <div className='h-fit w-full flex flex-col p-8 gap-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
       <div className='flex flex-col gap-2'>
         <div>
           <h6 className='text-2xl'>{title}</h6>
@@ -121,18 +121,3 @@ function PricingCard({title,price,benefits,oneliner}:IPricingCardProps) {
   )
 }
 
-function Navbar() {
-  return (
-    <div className='w-full h-16 backdrop-filter backdrop-blur-xl bg-opacity-20 border-b flex items-center justify-center'>
-      <div className='max-w-7xl w-full flex items-center justify-between p-4'>
-        <h3 className='text-3xl font-bold hover:text-fuchsia-500 transition-colors '>Boca Boca Dev</h3>
-        <ul className='flex gap-8'>
-          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#pricing">Trial</Link></li>
-          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#about">About</Link></li>
-          <li><Link className='hover:text-fuchsia-500 transition-colors text-xs sm:text-base' href="#home">Model</Link></li>
-        </ul>
-      </div>
-
-    </div>
-  )
-}
