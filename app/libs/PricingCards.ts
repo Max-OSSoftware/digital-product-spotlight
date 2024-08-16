@@ -1,36 +1,64 @@
 interface IPricingCard {
-    price:number;
-    title:string;
-    benefits:string[];
-    id:number;
-    oneliner:string;
+    price: number;
+    title: string;
+    benefits: string[];
+    id: number;
+    oneliner: string;
 }
 
-const pricingCards:IPricingCard[] = [
+const pricingCards: IPricingCard[] = [
     {
-        price: 49,
-        title: "Insightful Pro",
+        price: 0,
+        title: "Starter",
         benefits: [
-            "Predictive lead scoring",
-            "Automated content creation",
-            "Personalized messaging at scale",
-            "Customer retention tools",
+            "Basic AI-powered lead scoring",
+            "Automated content suggestions",
+            "Standard messaging templates",
+            "Basic customer analytics",
+            "Email support",
         ],
         id: 1,
-        oneliner: "AI-powered sales tools for focused revenue growth"
+        oneliner: "Get started with essential AI tools for your sales team"
     },
     {
-        price: 99,
-        title: "Insightful Enterprise",
+        price: 29,
+        title: "Pro",
         benefits: [
-            "Everything In Pro Tier, and:",
-            "Data-driven recommendations",
-            "Customizable sales workflows",
-            "Real-time alerts and notifications",
+            "Advanced lead scoring algorithms",
+            "Enhanced content creation tools",
+            "Personalized messaging at scale",
+            "Advanced customer retention tools",
+            "Priority email support",
         ],
         id: 2,
-        oneliner: "Comprehensive sales optimization for accelerated revenue gains"
+        oneliner: "Boost your sales with advanced AI capabilities"
+    },
+    {
+        price: 79,
+        title: "Enterprise",
+        benefits: [
+            "All Pro features, plus:",
+            "Data-driven sales recommendations",
+            "Customizable sales workflows",
+            "Real-time alerts and notifications",
+            "Dedicated account manager",
+        ],
+        id: 3,
+        oneliner: "Optimize and scale your sales operations with enterprise-grade AI"
+    },
+    {
+        price: 149,
+        title: "Ultimate",
+        benefits: [
+            "All Enterprise features, plus:",
+            "Full API access",
+            "Priority support",
+            "Exclusive AI model customizations",
+            "Advanced security features",
+        ],
+        id: 4,
+        oneliner: "Unlock the full potential of AI with our most comprehensive plan"
     },
 ]
 
-export default pricingCards
+export default pricingCards;

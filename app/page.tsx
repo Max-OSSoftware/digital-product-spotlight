@@ -16,10 +16,11 @@ export default function Home() {
       <header id="home" className="flex flex-col-reverse md:flex-row w-full h-screen max-w-7xl items-center justify-center p-8 relative overflow-x-hidden">
         <div className='w-full h-2/4 md:h-full md:w-2/5 flex flex-col justify-center items-center md:items-start gap-8'>
           <div className='flex flex-col gap-2'>
-            <h1 className='text-4xl font-black md:text-6xl'>Welcome to Maxwell</h1>
+            <h1 className='text-4xl font-black md:text-6xl'>DMX | AI</h1>
             <h2 className='text-md md:text-2xl'>The Ultimate Technology Solution</h2>
           </div>
-          <p className='max-w-md text-sm md:text-base text-zinc-500'>we specialize in a ultimate technology that transforms written content into engaging web presentations. Our AI-driven platforms empowers businesses and creators to effortlessly convert text into dynamic visual content, saving time and enhancing communication.</p>
+          <p className='max-w-md text-sm md:text-base text-zinc-500'>we specialize in a ultimate technology that transforms written content into engaging web presentations.
+             Our AI-driven platforms empowers businesses and creators to effortlessly convert text into dynamic visual content, saving time and enhancing communication.</p>
           <div className='w-full flex items-center justify-center md:justify-start gap-4'>
             <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Join Watchlist</button>
             <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors'>Contact</button>
@@ -37,7 +38,7 @@ export default function Home() {
           <Image src="/whirl.svg" fill className="absolute object-cover w-full overflow-visible sm:rotate-90" alt="Background Whirl"/>
         </div>
         <div className="w-full h-full flex items-center justify-center flex-col gap-8 max-w-7xl">
-          <h3 className='text-4xl md:text-5xl font-bold'>Effortless Content Creation Technology</h3>
+          <h3 className='text-4xl md:text-5xl font-bold'>Content Creation Technology</h3>
           <div className="w-full grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-4 justify-between relative">
             {infoCards.map((infoCard) => {
               return (
@@ -50,16 +51,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="pricing" className="h-fit min-h-screen w-full flex flex-col items-center justify-center gap-8 p-8">
-        <h4 className="text-4xl md:text-5xl font-bold">Pricing</h4>
-        <div className='grid grid-cols-1 grid-rows-2 sm:grid-rows-1 sm:grid-cols-2 items-center h-fit w-full max-w-3xl gap-8'>
-            {pricingCards.map((pricingCard) => {
-              return (
-                <PricingCard oneliner={pricingCard.oneliner} title={pricingCard.title} price={pricingCard.price} benefits={pricingCard.benefits} key={pricingCard.id}/>
-              )
-            })}
-        </div>
-      </section>
+      <section id="pricing" className="h-fit min-h-screen w-full flex flex-col items-center justify-center gap-4 p-4">
+    <h4 className="text-4xl md:text-5xl font-bold">Pricing</h4>
+    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 items-center h-fit w-full max-w-6xl gap-4'>
+        {pricingCards.map((pricingCard) => {
+          return (
+            <PricingCard oneliner={pricingCard.oneliner} title={pricingCard.title} price={pricingCard.price} benefits={pricingCard.benefits} key={pricingCard.id}/>
+          )
+        })}
+    </div>
+</section>
+
+
 
     </main>
   )
