@@ -27,7 +27,7 @@ const infoCards: IInfoCard[] = [
         icon: ArrowDownNarrowWide,
         id: 3
     },
-    {
+      {
         title: "Maximize Engagement",
         bodyText: "Elevate your content strategy with our cutting-edge Text-to-Video technology, designed to captivate audiences and boost engagement by up to 25%.",
         icon: ArrowUpNarrowWide,
