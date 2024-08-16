@@ -8,7 +8,7 @@ interface IPricingCard {
 
 const pricingCards: IPricingCard[] = [
     {
-        price: 0,
+        price: 19,
         title: "Starter",
         benefits: [
             "Basic AI-powered lead scoring",
