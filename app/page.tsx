@@ -123,7 +123,7 @@ interface IInfoCardProps {
 
 function InfoCard({ title, Icon, children }: IInfoCardProps) {
   return (
-    <div className='w-full h-80 flex flex-col justify-around items-center p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
+    <div className='w-full h-80 flex flex-col justify-around items-center p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-10'>
       <div className="p-4 bg-fuchsia-700 rounded-full">
         <Icon />
       </div>
