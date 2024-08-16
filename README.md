@@ -2,4 +2,4 @@
 
 ### fictional product spotlight page
 
-<img src="readmeImages/screenshot.png />
+<img src="readmeImages/screenshot.png" />
