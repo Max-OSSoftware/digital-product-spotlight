@@ -18,13 +18,13 @@ export default function Home() {
             <h1 className='text-4xl font-black md:text-6xl animate__animated animate__fadeInUp animate__slow'>DMX | AI</h1>
             <h2 className='text-md md:text-2xl animate__animated animate__fadeInUp animate__slow'>The Ultimate Technology Solution</h2>
           </div>
-          <p className='max-w-md text-sm md:text-base text-zinc-500 animate__animated animate__fadeInUp animate__slow'>
+          <p className='max-w-md text-sm md:text-base text-zinc-700 animate__animated animate__fadeInUp animate__slow'>
             We specialize in an ultimate technology that transforms written content into engaging web presentations.
              Our AI-driven platforms empower businesses and creators to effortlessly convert text into dynamic visual content, saving time and enhancing communication.
           </p>
-          <div className='w-full flex items-center justify-center md:justify-start gap-4 animate__animated animate__fadeInUp animate__slow'>
-            <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-700 hover:text-white transition-colors'>Join Watchlist</button>
-            <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors'>Contact</button>
+          <div className='w-full flex items-center justify-center md:justify-start gap-4'>
+            <button className='w-48 h-12 text-sm sm:text-base rounded bg-white text-black hover:bg-fuchsia-900 hover:text-white transition-colors animate__animated animate__fadeInUp animate__slow'>Join Watchlist</button>
+            <button className='w-48 h-12 text-sm sm:text-base rounded hover:bg-white hover:text-white hover:bg-opacity-5 transition-colors animate__animated animate__fadeInUp animate__slow'>Contact</button>
           </div>
         </div>
 
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
       </header>
 
-      <section id="upcoming-release" className="h-fit min-h-screen w-full flex relative items-center justify-center p-8 mt-8 mb-8 animate__animated animate__fadeInUp animate__slow">
+      <section id="upcoming-release" className="h-fit min-h-screen w-full flex relative items-center justify-center p-8 mt-8 mb-8">
         <div className='absolute -z-10 h-full w-full overflow-hidden'>
           <Image src="/whirl.svg" fill className="absolute object-cover w-full overflow-visible sm:rotate-90" alt="Background Whirl"/>
         </div>
@@ -43,39 +43,39 @@ export default function Home() {
           {/* Cards Container */}
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             {/* Card 1 */}
-            <div className="flex flex-col p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 animate__animated animate__fadeInUp animate__slow">
-              <h4 className="text-xl font-bold mb-4">Upcoming AI Features</h4>
-              <p className="text-sm text-zinc-900 mb-4">Experience cutting-edge AI tools that simplify content creation, enhance creativity, and automate workflows.</p>
-              <button className="bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800">Discover More</button>
+            <div className="flex flex-col p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20">
+              <h4 className="text-xl font-bold mb-4 animate__animated animate__fadeInUp animate__slow">Upcoming AI Features</h4>
+              <p className="text-sm text-zinc-900 mb-4 animate__animated animate__fadeInUp animate__slow">Experience cutting-edge AI tools that simplify content creation, enhance creativity, and automate workflows.</p>
+              <button className="bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800 animate__animated animate__fadeInUp animate__slow">Discover More</button>
             </div>
 
             {/* Card 2 */}
-            <div className="flex flex-col p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 animate__animated animate__fadeInUp animate__slow">
-              <h4 className="text-xl font-bold mb-4">Integration Updates</h4>
-              <p className="text-sm text-zinc-900 mb-4">Seamlessly integrate our tools with your existing platforms, ensuring smooth operations and enhanced functionality.</p>
-              <button className="bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800">Learn More</button>
+            <div className="flex flex-col p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20">
+              <h4 className="text-xl font-bold mb-4 animate__animated animate__fadeInUp animate__slow">Integration Updates</h4>
+              <p className="text-sm text-zinc-900 mb-4 animate__animated animate__fadeInUp animate__slow">Seamlessly integrate our tools with your existing platforms, ensuring smooth operations and enhanced functionality.</p>
+              <button className="bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800 animate__animated animate__fadeInUp animate__slow">Learn More</button>
             </div>
           </div>
 
           <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
             {/* Card 1 */}
-            <div className="flex flex-col p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 animate__animated animate__fadeInUp animate__slow">
-              <h4 className="text-xl font-bold mb-4">Upcoming AI Features</h4>
-              <p className="text-sm text-zinc-900 mb-4">Experience cutting-edge AI tools that simplify content creation, enhance creativity, and automate workflows.</p>
-              <button className="bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800">Discover More</button>
+            <div className="flex flex-col p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20">
+              <h4 className="text-xl font-bold mb-4 animate__animated animate__fadeInUp animate__slow">Upcoming AI Features</h4>
+              <p className="text-sm text-zinc-900 mb-4 animate__animated animate__fadeInUp animate__slow">Experience cutting-edge AI tools that simplify content creation, enhance creativity, and automate workflows.</p>
+              <button className="bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800 animate__animated animate__fadeInUp animate__slow">Discover More</button>
             </div>
 
             {/* Card 2 */}
-            <div className="flex flex-col p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 animate__animated animate__fadeInUp animate__slow">
-              <h4 className="text-xl font-bold mb-4">Integration Updates</h4>
-              <p className="text-sm text-zinc-900 mb-4">Seamlessly integrate our tools with your existing platforms, ensuring smooth operations and enhanced functionality.</p>
-              <button className="bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800">Learn More</button>
+            <div className="flex flex-col p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20">
+              <h4 className="text-xl font-bold mb-4 animate__animated animate__fadeInUp animate__slow">Integration Updates</h4>
+              <p className="text-sm text-zinc-900 mb-4 animate__animated animate__fadeInUp animate__slow">Seamlessly integrate our tools with your existing platforms, ensuring smooth operations and enhanced functionality.</p>
+              <button className="bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800 animate__animated animate__fadeInUp animate__slow">Learn More</button>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="about" className="h-fit min-h-screen w-full flex relative items-center justify-center p-8 mt-8 mb-8 animate__animated animate__fadeInUp animate__slow">
+      <section id="about" className="h-fit min-h-screen w-full flex relative items-center justify-center p-8 mt-8 mb-8">
         <div className='absolute -z-10 h-full w-full overflow-hidden'>
           <Image src="/whirl.svg" fill className="absolute object-cover w-full overflow-visible sm:rotate-90" alt="Background Whirl"/>
         </div>
@@ -84,14 +84,16 @@ export default function Home() {
           <div className="w-full grid grid-cols-1 grid-rows-3 md:grid-cols-2 md:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1 gap-4 justify-between relative">
             {infoCards.map((infoCard) => {
               return (
-                <InfoCard key={infoCard.id} Icon={infoCard.icon} title={infoCard.title} />
+                <InfoCard key={infoCard.id} Icon={infoCard.icon} title={infoCard.title}>
+                <p className="text-sm sm:text-base text-center md:text-left">{infoCard.bodyText}</p>
+              </InfoCard>
               )
             })}
           </div>
         </div>
       </section>
 
-      <section id="pricing" className="h-fit min-h-screen w-full flex relative items-center justify-center p-8 mt-8 mb-8 animate__animated animate__fadeInUp animate__slow">
+      <section id="pricing" className="h-fit min-h-screen w-full flex relative items-center justify-center p-8 mt-8 mb-8">
         <div className='absolute -z-10 h-full w-full overflow-hidden'>
           <Image src="/whirl.svg" fill className="absolute object-cover w-full overflow-visible sm:rotate-90" alt="Background Whirl"/>
         </div>
@@ -106,8 +108,8 @@ export default function Home() {
       </section>
     </main>
 
-    <footer className="w-full h-64 bg-gradient-to-b from-fuchsia-700 to-blue-900 flex items-center justify-center p-8 mt-8 animate__animated animate__fadeInUp animate__slow">
-      <p className="text-white text-center">© 2024 DMX | DMX AI - All Rights Reserved</p>
+    <footer className="w-full h-64 bg-gradient-to-b from-fuchsia-700 to-blue-800 flex items-center justify-center p-8 mt-8">
+      <p className="text-white text-center animate__animated animate__fadeInUp animate__slow">© 2024 DMX | DMX AI - All Rights Reserved</p>
     </footer>
   </>
   )
@@ -121,12 +123,12 @@ interface IInfoCardProps {
 
 function InfoCard({ title, Icon, children }: IInfoCardProps) {
   return (
-    <div className='w-full h-80 flex flex-col justify-around items-center p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 animate__animated animate__fadeInUp animate__slow'>
+    <div className='w-full h-80 flex flex-col justify-around items-center p-8 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
       <div className="p-4 bg-fuchsia-700 rounded-full">
         <Icon />
       </div>
       <div>
-        <h3 className='text-lg font-bold sm:text-xl'>{title}</h3>
+        <h3 className='text-lg font-bold sm:text-xl animate__animated animate__fadeInUp animate__slow'>{title}</h3>
       </div>
       <div>{children}</div>
     </div>
@@ -141,21 +143,21 @@ interface IPricingCardProps {
 }
 function PricingCard({ title, price, benefits, oneliner }: IPricingCardProps) {
   return (
-    <div className='h-fit w-full flex flex-col p-8 gap-4 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20 animate__animated animate__fadeInUp animate__slow'>
+    <div className='h-fit w-full flex flex-col p-8 gap-4 bg-gray-900 rounded bg-clip-padding backdrop-filter backdrop-blur-xl bg-opacity-20'>
       <div className='flex flex-col gap-2'>
         <div>
-          <h6 className='text-2xl'>{title}</h6>
-          <p className='text-sm text-zinc-500'>{oneliner}</p>
+          <h6 className='text-2xl animate__animated animate__fadeInUp animate__slow'>{title}</h6>
+          <p className='text-sm text-zinc-700 animate__animated animate__fadeInUp animate__slow'>{oneliner}</p>
         </div>
-        <p className='text-4xl font-bold'>
-          ${price} <span className='text-sm font-normal text-zinc-500'>/ Month</span>
+        <p className='text-4xl font-bold animate__animated animate__fadeInUp animate__slow'>
+          ${price} <span className='text-sm font-normal text-zinc-700'>/ Month</span>
         </p>
       </div>
-      <button className='bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-800'>Try 7 days free!</button>
+      <button className='bg-fuchsia-700 rounded text-white p-2 text-sm transition-colors hover:bg-fuchsia-900 animate__animated animate__fadeInUp animate__slow'>Try 7 days free!</button>
       <div className='flex flex-col w-full gap-4'>
         {benefits.map((benefit, i) => {
           return (
-            <p key={i} className='text-sm text-zinc-500 flex items-center gap-2'>
+            <p key={i} className='text-sm text-zinc-700 flex items-center gap-2 animate__animated animate__fadeInUp animate__slow'>
               <span>
                 <CheckCheck />
               </span>
