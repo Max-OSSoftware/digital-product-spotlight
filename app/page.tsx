@@ -30,9 +30,7 @@ export default function Home() {
           <Spline className="w-full flex scale-[.25] sm:scale-[.35] lg:scale-[.5] items-center justify-center md:justify-start" scene='https://prod.spline.design/pvM5sSiYV2ivWraz/scene.splinecode'/>
         </div>
       </section>
-      <footer className="w-full h-64 bg-gradient-to-b from-fuchsia-700 to-blue-800 flex items-center justify-center p-8 mt-8">
-      <p className="text-white text-center animate__animated animate__fadeInUp animate__slow">© 2024 DMX | DMX AI - All Rights Reserved</p>
-      </footer>
+    
     </main>
   )
 }
