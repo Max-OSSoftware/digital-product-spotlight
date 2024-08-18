@@ -1,7 +1,11 @@
-## DMX Product Spotlight
+## Maxwell Dev
 
-### fictional product spotlight page
+### digital-product-spotlight
+
+### DMX Digital Product Spotlight
+
+
 
 <img src="readmeImages/screenshot.png" />
 
-### Next 13 updated to 14
+#### Next 13
