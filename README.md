@@ -1,8 +1,8 @@
-## Maxwell Dev
+### Maxwell Dev
 
 ### digital-product-spotlight
 
-### DMX Digital Product Spotlight
+#### DMX Digital Product Spotlight
 
 
 
